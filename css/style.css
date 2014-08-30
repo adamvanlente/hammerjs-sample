@@ -1,0 +1,81 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  color: #333;
+}
+
+p {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 16px;
+  padding: 8px;
+}
+
+p a {
+  text-decoration: none;
+  color: rgb(211, 191, 191);
+}
+
+.square {
+  display: block;
+  margin: 0 auto;
+  margin-top: 24px;
+  color: #fff;
+  text-align: center;
+  padding: 24px 0;
+  width: 85%;
+  cursor: pointer;
+}
+
+.hammer-pan {
+  -webkit-transition: ease-in-out all 0.04s;
+  -moz-transition: ease-in-out all 0.04s;
+  -o-transition: ease-in-out all 0.04s;
+  transition: ease-in-out all 0.04s;
+}
+
+.hammer-panStick-holder {
+  background-color: rgb(206, 200, 200);
+  display: block;
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 24px;
+  position: relative
+}
+
+.hammer-panStick-holder label {
+  position: absolute;
+  padding: 25px;
+  opacity: 0;
+}
+
+.hammer-panStick-holder label.right {
+  right: 0;
+}
+
+.hammer-panStick-slider {
+  display: block;
+  padding: 24px;
+  text-align: center;
+  color: #fff;
+}
+
+.hammer-swipe {
+  -webkit-transition: ease-in-out all 0.2s;
+  -moz-transition: ease-in-out all 0.2s;
+  -o-transition: ease-in-out all 0.2s;
+  transition: ease-in-out all 0.2s;
+}
+
+.red {
+  background-color: rgb(218, 87, 87);
+}
+
+.green {
+  background-color: rgb(73, 150, 73);
+}
+
+.blue {
+  background-color: rgb(108, 108, 204);
+}

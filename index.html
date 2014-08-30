@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Hammer Testing</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+
+          <p>A quick &amp; dirty test for some panning &amp; swiping gestures using the <a href="http://hammerjs.github.io/">hammer.js</a> library by <a href="http://www.eight.nl/">eight media.</a></p>
+
+          <!-- Pan left and right, like pulling to 'star' an item -->
+          <span class="hammer-pan square red" id="hammer-pan">pan left &amp; right</span>
+
+          <!-- Pan left and right, but hold when limit is reached, a la swipe-to-delete in iOs -->
+          <div class="hammer-panStick-holder">
+              <label class="left" id="label-left">Hi there</label>
+              <label class="right" id="label-right">Why hello!</label>
+              <span class="hammer-panStick-slider green" id="hammer-panStick">pan &amp; stick</span>
+          </div>
+
+          <!-- Swipe away to dismiss, a la swiping cards in Google Now mobile interface -->
+          <span class="hammer-swipe square blue" id="hammer-swipe">swipe left or right</span>
+
+        <script src="js/jquery.js"></script>
+        <script src="js/hammer.js"></script>
+        <script src="js/main.js"></script>
+
+
+    </body>
+</html>
